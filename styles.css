@@ -17,6 +17,24 @@ hr {
     border: 1px solid #eee;
 }
 
+
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+    
+    
+}
+.icon-nav {
+    color: #4a4a4a;
+}
+.icon-corner {
+    color: #ffffff;
+}
 .wrapper {
     background-color: yellow;
 }
@@ -26,7 +44,7 @@ hr {
     position: fixed;
     top: 0;
     left: 0;
-    width: 225px;
+    width: 195px;
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
@@ -93,6 +111,9 @@ hr {
 }
 
 .layout {
+
+    
+
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -147,3 +168,14 @@ hr {
     background-color: rgb(93, 0, 255);
     padding: 15px;
 }
+
+@media screen and (max-width: 655px) {
+    .layout {
+      display: block;
+      margin: 0 auto;
+      padding-left: 55%;
+      width: auto;
+   
+     
+    }
+  }
